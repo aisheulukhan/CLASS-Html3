@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+
+}
+.banner{
+    width: 100%;
+    height: 75vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #ffc800;;
+    font-size: 30px;
+    font-style: italic;
+    cursor: pointer;
+    font-weight: 100;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.navbar ul li a:hover{
+    color:#ffc800 ;
+    transition: 0.8s;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 40px;
+    margin-top: 80px;
+    font-weight: 100;
+
+}
+.content h2{
+    padding-top: 50px;
+    max-width: 20px auto;
+    line-height: 25px;
+    font-size: 100px;
+  
+}
+.btn{
+    margin-top: 100px;
+    padding: 20px 15px;
+    background-color: #ffc800;;
+    color: white;
+    border: #ffc800;
+}
+.btn:hover{
+   background-color: #ffae00;
+
+}
+.main{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-content-item{
+    text-align: center;
+    padding-top: 70px;
+}
+.main-content-item h2{
+    font-size: 40px;
+}
+.main-content-item p{
+    color: grey;
+    font-style: italic;
+    padding-top: 15px;
+}
+.item{
+    height: 20vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.items h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.items{
+    justify-content: space-around;
+}
+.items i{
+    font-size: 100px;
+    color: #ffc800;
+    padding-top: 80px;
+}
+.items p{
+    padding-top: 20px; 
+    color: grey;
+    font-size: 16px;
+}
+.main2{
+    background-color: rgba(248, 249, 250);
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    
+}
+.portfolio{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.galary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 20px 40px 20px 100px; */
+    width: 80%;
+    margin-left: 15%;
+    padding-top: 40px;
+    
+
+}
+.foto img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    width: 33.3%;
+    height: 400px;
+    margin-bottom: 20px;
+
+}
+.foto img{
+    width: 400px;
+    height: auto;
+
+}
+.img-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -17%;
+}
+.main3{
+    width: 100%;
+    height: 300vh;
+}
+.main3-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-about{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
